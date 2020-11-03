@@ -1,0 +1,68 @@
+body{
+	margin: 40px;
+}
+
+header h1{
+	margin: 0;
+}
+
+
+/** Navigation Section **/
+.parent-nav{
+	background-color: #524e4e;
+	margin: 0;
+
+}
+.parent-nav li{
+	display: inline-block;
+	padding: 10px;
+}
+
+.parent-nav li:hover a{
+	color: #eafe41;
+}
+
+.parent-nav li a, .child-nav li a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 20px;
+}
+
+.child-nav{
+	display: none;
+	padding-left:0;
+
+}
+.child-nav li{
+	display: block;
+
+}
+
+.parent-nav li:hover ul.child-nav{
+	display: block;
+}
+
+
+#container{
+	width: 100%;
+}
+
+article{
+	text-align: justify;
+	width: 70%;
+	float: left;
+}
+aside{
+	width: 27%;
+	margin-left: 3%;
+	float: left;
+	text-align: justify;
+}
+
+h1.article-headline{
+	text-align:center;
+}
+
+footer{
+	text-align: center;
+}
